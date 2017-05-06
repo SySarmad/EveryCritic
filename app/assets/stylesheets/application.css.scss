@@ -13,3 +13,25 @@
  *= require_tree .
  *= require_self
  */
+
+@import "bootstrap-sprockets";
+@import "bootstrap";
+
+body{
+  .navbar{
+    background-color: #2E2F30;
+    border-color: darkcyan;
+    border-bottom-width: thick;
+    text-decoration-color: darkcyan;
+  }
+}
+
+footer{
+  .navbar-fixed-bottom{
+    background-color: #2E2F30;
+    border-color: darkcyan;
+    border-bottom-width: thick;
+    text-decoration-color: darkcyan;
+  }
+
+}
